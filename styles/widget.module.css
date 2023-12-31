@@ -1,0 +1,31 @@
+.weatherWidget {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 200px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.currentWeather {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.currentWeather div {
+  display: inline-block;
+  font-size: 2.5rem;
+}
+
+.feelsLike {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.weather {
+  font-weight: bold;
+}
